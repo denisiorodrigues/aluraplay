@@ -17,6 +17,7 @@ Um projeto de HTML/CSS para aplicar ows conhecimentos de cursos e trilhas
 | ------------- |:-------------:|
 | Migrar o layout para ReactJS com vite| a fazer     |
 | Cadastro de vídeos| a fazer     |
+| Menu para mobile - melhor o hover dos botões | a fazer     |
 
 <a id="tipodescricao"></a>
 ## Semântica de commits 🦄
