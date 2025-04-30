@@ -13,18 +13,18 @@
 
 /* RODAPÉ */
 .rodape__container {
-    display:flex;
+    display: flex;
     /* flex-direction: column;
     flex-wrap: wrap; */
     flex-flow: column wrap;
 }
 
 .superior__secao__container {
-    display:flex;
+    display: flex;
     align-items: center;
     white-space: nowrap;
     overflow: scroll;
-    gap:15px;
+    gap: 15px;
 }
 
 /* MENU */
@@ -57,6 +57,25 @@
     gap: 5px;
 }
 
+/* MENU LATERAL PARA TELAS DE TABLETS */
+
+@media (min-width: 834px) {
+
+    .menu__container {
+        left: 0;
+        height: auto;
+        width: 74px;
+        top: 80px;
+    }
+
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }
+}
+
 @media(min-width: 1440px) {
     .menu__container {
         width: 239px;
@@ -66,23 +85,11 @@
     .menu__lista:nth-child(2),
     .menu__lista:nth-child(3),
     .menu__lista:nth-child(4) {
-            display: flex;
+        display: flex;
     }
 
     .menu__lista {
         height: auto;
         padding: 20px 17px 20px 15px;
-    }
-}
-
-@media(min-width: 834px) {
-    /* CABEÇALHO */
-    .cabecalho__pesquisar__item {
-        display: block;
-    }
-
-    /* RODAPÉ */
-    .rodape__container {
-        justify-content: space-between;
     }
 }
